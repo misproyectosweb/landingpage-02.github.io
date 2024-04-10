@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/02/2024, 02:21:51 PM
+    Author     : pcgc7
+*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.titulo {    
+    font-weight: 400;
+    font-style: normal;   
+}
+.subtitulo {    
+    font-weight: 300;
+    font-style: normal;
+}
+.titulo {
+    font-size: 2.5em;
+}
+.subtitulo {
+    font-size: 1.75em;
+}
+.w-75 {
+    width: 70%!important;
+} 
+
+/****************************** MEDIA QUERIES ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {    
+    .titulo {
+        font-size: 2.5em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }  
+    .w-75 {
+        width: 70%!important;
+    } 
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1483.98px) {
+    .titulo {
+        font-size: 2em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    } 
+    .w-75 {
+        width: 70%!important;
+    } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .titulo {
+        font-size: 2em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    } 
+    .w-75 {
+        width: 70%!important;
+    }     
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .titulo {
+        font-size: 1.75em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }    
+    .w-75 {
+        width: 50%!important;
+    }       
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }        
+    .w-75 {
+        width: 50%!important;
+    }  
+}
+
+@media screen and (max-width: 575.98px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }        
+    .w-75 {
+        width: 50%!important;
+    }   
+}
+
+
+/*.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}*/
