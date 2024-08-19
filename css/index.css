@@ -8,20 +8,19 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-body { font-family: "Roboto", sans-serif; background-image: url('../imagenes/imgTaller_3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
-.colorFondo { background-color: rgba(0, 0, 0, 0.4); }
+.imgFondo { font-family: "Roboto", sans-serif; background-image: url('../imagenes/imgTaller_3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.colorFondo { background-color: rgba(0, 0, 0, 0.5); background-size: cover; }
 
 /* Encabezado */
-.w-25 { width: 35% !important; }
+.w-25 { width: 25% !important; }
 .redes { font-size: 1.5em; }
 .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
-.vh-100 { height: 150vh !important; }
 
 /* Sección principal */
 .py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
-h1 { font-size: 2.5em; }
+h1 { font-size: 2.25em; }
 h3 { font-size: 1.75em; }
-.w-50 { width: 25%!important; }
+.w-50 { width: 15% !important; }
 .btn-lg { font-size: 1.25em !important; }
 
 /****************************** MEDIA QUERIES ******************************/
@@ -29,52 +28,22 @@ h3 { font-size: 1.75em; }
 @media screen and (min-width: 1484px) and (max-width: 1647.98px) {    
     
     /* Encabezado */
-    .w-25 { width: 35% !important; }
+    .w-25 { width: 25% !important; }
     .redes { font-size: 1.5em; }
     .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
     
     /* Sección principal */
-    .py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
-    h1 { font-size: 2.25em; }
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
+    h1 { font-size: 2em; }
     h3 { font-size: 1.5em; }
-    .w-50 { width: 25% !important; }
+    .w-50 { width: 15% !important; }
     .btn-lg { font-size: 1.25em !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1483.98px) {
         
     /* Encabezado */
-    .w-25 { width: 40% !important; }
-    .redes { font-size: 1.25em; }
-    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-    
-    /* Sección principal */
-    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
-    h1 { font-size: 2em; }
-    h3 { font-size: 1.25em; }
-    .w-50 { width: 30% !important; }
-    .btn-lg { font-size: 1em !important; }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    
-    /* Encabezado */
-    .w-25 { width: 40% !important; }
-    .redes { font-size: 1.25em; }
-    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-    
-    /* Sección principal */
-    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
-    h1 { font-size: 1.75em; }
-    h3 { font-size: 1.25em; }
-    .w-50 { width: 30% !important; }
-    .btn-lg { font-size: 1em !important; }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-    
-    /* Encabezado */
-    .w-25 { width: 50% !important; }
+    .w-25 { width: 30% !important; }
     .redes { font-size: 1.25em; }
     .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
     
@@ -82,7 +51,37 @@ h3 { font-size: 1.75em; }
     .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
     h1 { font-size: 1.5em; }
     h3 { font-size: 1em; }
-    .w-50 { width: 35% !important; }
+    .w-50 { width: 15% !important; }
+    .btn-lg { font-size: 1em !important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /* Encabezado */
+    .w-25 { width: 35% !important; }
+    .redes { font-size: 1.25em; }
+    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    
+    /* Sección principal */
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    h1 { font-size: 1.2em; }
+    h3 { font-size: 1em; }
+    .w-50 { width: 20% !important; }
+    .btn-lg { font-size: 1em !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Encabezado */
+    .w-25 { width: 45% !important; }
+    .redes { font-size: 1.25em; }
+    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    
+    /* Sección principal */
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    h1 { font-size: 1.5em; }
+    h3 { font-size: 1em; }
+    .w-50 { width: 25% !important; }
     .btn-lg { font-size: 1em !important; }
 }
 
@@ -94,10 +93,10 @@ h3 { font-size: 1.75em; }
     .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }
     
     /* Sección principal */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
     h1 { font-size: 1.25em; }
     h3 { font-size: 1em; }
-    .w-50 { width: 35% !important; }
+    .w-50 { width: 30% !important; }
     .btn-lg { font-size: 0.75em !important; }
 }
 
@@ -109,7 +108,7 @@ h3 { font-size: 1.75em; }
     .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }
     
     /* Sección principal */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
     h1 { font-size: 1em; }
     h3 { font-size: 0.75em; }
     .w-50 { width: 35% !important; }
@@ -124,9 +123,9 @@ h3 { font-size: 1.75em; }
     .py-4 { padding-top: 1em !important; padding-bottom: 0.75em !important; }
     
     /* Sección principal */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    .py-5 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
     h1 { font-size: 1em; }
     h3 { font-size: 0.75em; }
-    .w-50 { width: 35% !important; }
-    .btn-lg { font-size: 0.75em !important; }    
+    .w-50 { width: 40% !important; }
+    .btn-lg { font-size: 0.75em !important; }
 }
